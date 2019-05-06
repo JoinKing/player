@@ -12,7 +12,7 @@ ext {// ext is a gradle closure allowing the declaration of global properties
 uploadArchives {
     repositories.mavenDeployer {
         //这里就是最后输出地址，在自己电脑上新建个文件夹，把文件夹路径粘贴在此
-//        repository(url: "file:\\E:\\YHSDK")
+        repository(url: "file:\\E:\\YHVIDEO")
         pom.project {
             groupId 'com.yanhua.player'
             artifactId 'player'
